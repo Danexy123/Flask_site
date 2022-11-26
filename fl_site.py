@@ -9,7 +9,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return "<h1>О сайте</h1>"
+    return render_template("about.html")
 
 if __name__ == "__main__":
     # чтобы видеть все ошибки
